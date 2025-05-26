@@ -39,7 +39,6 @@ int main(){
 
     std::set<std::string> urls;
     findURLs(filename, urls);
-    std::cout << "Rasti URL'ai:\n";
     for (const auto &u : urls) {
         std::cout << u << '\n';
     }
