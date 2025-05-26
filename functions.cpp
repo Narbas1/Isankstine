@@ -54,7 +54,7 @@ void crossReference(const std::string &filename, const std::map<std::string,int>
 }
 
 void findURLs(const std::string &filename,
-              std::set<std::string> &urls) {
+    std::set<std::string> &urls) {
     std::ifstream in(filename);
     if (!in) return;
     std::string line;
