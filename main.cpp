@@ -11,7 +11,7 @@ int main(){
 
     std::ifstream in("tekstas.txt");
     if (!in) {
-        std::cerr << "Nepavyko atidaryti failo tekstas.txt\n";
+        std::cerr << "failed to open file tekstas.txt\n";
         return 1;
     }
 
@@ -41,13 +41,13 @@ int main(){
     findURLs(filename, urls);
 
     std::ofstream outWords("zodziai.txt");
-    outWords << "Žodžiai pasikartoję daugiau nei 1 kartą:\n";
+    outWords << "words that appeared more than 1 time:\n";
     for (const auto &p : wordCount) {
         if (p.second > 1)
             outWords << p.first << ": " << p.second << '\n';
     }
     std::ofstream outXref("xref.txt");
-    outXref << "Cross-reference (žodis: eilutės):\n";
+    outXref << "cross-reference (word: lines):\n";
     for (const auto &p : wordLines) {
         outXref << p.first << ": ";
         bool first = true;
@@ -60,7 +60,7 @@ int main(){
     }
 
     std::ofstream outUrls("urls.txt");
-    outUrls << "Rasti URL'ai:\n";
+    outUrls << "Found URLs:\n";
     for (const auto &u : urls) {
         outUrls << u << '\n';
     }
