@@ -39,9 +39,6 @@ int main(){
 
     std::set<std::string> urls;
     findURLs(filename, urls);
-    for (const auto &u : urls) {
-        std::cout << u << '\n';
-    }
 
     std::ofstream outWords("zodziai.txt");
     outWords << "Žodžiai pasikartoję daugiau nei 1 kartą:\n";

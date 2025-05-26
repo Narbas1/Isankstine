@@ -1,38 +1,177 @@
 Cross-reference (žodis: eilutės):
-2009: 6
-2018: 6
-analiz: 2, 10, 15, 26
-bakalauro: 4, 5
-buvo: 9, 10
-dr: 6, 7
-duomen: 2, 4
-fakultetas: 1, 3, 11, 12
-fakultete: 5, 10
-fakulteto: 9, 11
-fakultetui: 6, 7, 14
-i: 1, 16, 18
-iavimo: 4, 18
-informatikos: 1, 2, 5, 12, 14, 19, 20, 27
-ir: 1, 2, 4, 5, 9, 10, 11, 12, 14, 16, 18, 19
-katedra: 9, 10, 15, 16, 17, 18, 19, 20, 21, 22, 26, 27
-katedros: 10, 13
-m: 6
-magistro: 4, 5
-matematikos: 1, 5, 9, 10, 11, 12, 14, 18, 19
-matematin: 10, 15, 17, 27
-met: 9, 10, 12
-metais: 11, 12
-nuo: 6, 9, 10, 12
-pat: 5, 9
-prof: 6, 7
-s: 2, 10, 15, 17, 26, 27
-si: 3, 5
-skai: 4, 16, 18
-statistikos: 2, 5, 17
-sud: 9, 11
-technologij: 3, 25
-teorijos: 16
-tyje: 9, 11
-universiteto: 1
-vadovavo: 6
-vilniaus: 1
+13: 3, 36
+1323: 10, 24, 27
+14: 3, 36
+1795: 27, 29
+1990: 36, 39
+1991: 36
+19th: 10, 31
+2009: 7, 41
+2023: 7, 41
+2025: 1, 7
+20th: 27, 31
+25: 7
+27: 10
+28: 10, 41
+29: 12, 41
+33: 27, 29, 31
+a: 3, 7, 10, 12, 15, 17, 19, 22, 23, 27, 29, 31, 33, 39, 41
+according: 15, 36
+after: 3, 29, 31
+an: 1, 7, 13, 36
+and: 1, 3, 5, 7, 8, 10, 12, 15, 17, 19, 25, 27, 29, 31, 36, 39, 41
+area: 1, 19, 39
+as: 3, 12, 25, 41
+at: 10, 27, 41
+austria: 7, 41
+baltic: 1, 29, 39
+baroque: 3
+be: 17, 36
+became: 10, 27, 29, 31, 39, 41
+been: 39
+before: 5, 31
+building: 36, 39
+buildings: 34, 39
+built: 19, 29, 39
+business: 39
+by: 10, 13, 17, 27, 29, 31
+called: 5
+capital: 1, 7, 17, 19, 27, 29, 31, 36, 41
+castle: 10, 17, 19, 25, 29
+center: 7, 10, 29
+centre: 7, 34, 39
+centuries: 10, 31
+century: 10, 23, 27
+cities: 3, 7
+city: 1, 3, 5, 7, 10, 12, 17, 19, 27, 29, 31, 34, 36, 39, 41
+commonwealth: 5, 29
+complex: 25, 39
+considered: 3, 7
+construction: 37, 39
+cultural: 29, 31, 41
+culture: 7, 41
+declared: 3, 19
+dream: 13, 15
+duchy: 27, 29
+duke: 15, 29
+during: 5, 10, 31
+east: 3, 29
+especially: 12, 29
+estimated: 1
+europe: 3, 5, 7
+european: 7, 12, 39, 41
+expanded: 39
+experienced: 29, 31
+financial: 7, 41
+first: 10, 29, 41
+flows: 10, 15
+for: 3, 5, 7, 12, 15, 17, 22, 41
+form: 10, 12
+from: 10, 27, 29, 33, 34, 36, 39, 41
+gediminas: 10, 13, 15, 19, 24, 29
+german: 12, 29
+germany: 27, 29
+global: 7
+grand: 15, 27, 29, 41
+had: 5, 29, 31
+has: 1, 39
+he: 5, 15, 19
+high: 34, 41
+hill: 10, 15, 19, 29
+his: 19
+historical: 12, 36
+history: 20, 21, 27
+hosted: 7, 41
+i: 12, 31
+ii: 5, 31
+imperial: 27, 31
+important: 5, 7
+in: 1, 3, 5, 7, 10, 12, 15, 19, 24, 25, 27, 29, 36, 37, 39, 41
+independence: 32, 34, 36, 37
+into: 10, 12, 15, 19
+iron: 13, 15, 17
+is: 1, 3, 7, 10, 12, 17
+it: 5, 7, 10, 19, 29
+its: 3, 5, 12, 29, 31, 34, 36, 39
+january: 1, 36
+jerusalem: 5
+jewish: 5, 29
+jews: 29, 31
+k: 34, 39
+known: 3, 24
+largest: 1, 3
+later: 27, 29
+latin: 10, 12
+led: 5, 31, 41
+letter: 10, 24
+letters: 10, 29
+linz: 7, 41
+lithuania: 1, 5, 17, 27, 29, 31, 36, 41
+lithuanian: 1, 5, 10, 12, 17, 29, 31, 36
+long: 12, 36
+lower: 19, 25
+made: 12, 41
+main: 21, 39
+many: 41
+modern: 33, 39
+most: 1, 5, 12, 34, 39
+name: 10, 12
+named: 3, 7, 19
+names: 8, 12
+nato: 7, 41
+near: 10, 15
+neris: 10, 15, 37, 39
+new: 34, 39
+night: 15
+north: 5, 39
+notable: 3, 12
+number: 29, 31
+of: 1, 3, 5, 7, 10, 12, 13, 15, 17, 21, 22, 24, 27, 29, 31, 34, 36, 39, 41
+old: 3, 10
+on: 7, 15, 17, 19, 29, 36, 37, 39, 41
+one: 3, 5, 7
+poland: 27, 31
+polish: 5, 10, 12, 29
+population: 1, 5
+recorded: 10, 15
+river: 10, 15, 37, 39
+russia: 27, 29
+russian: 12, 31
+s: 1, 3, 5, 7, 10, 34, 37, 39, 41
+shall: 17, 36
+since: 29, 39
+site: 3, 17
+soviet: 27, 31, 36
+standing: 15, 36
+state: 17, 36
+summit: 7, 41
+that: 15, 31
+the: 1, 3, 5, 7, 10, 12, 15, 17, 19, 24, 25, 27, 29, 31, 34, 36, 37, 39, 41
+their: 17
+this: 17, 36
+to: 3, 5, 10, 12, 15, 27, 29, 31, 36, 39, 41
+today: 10
+tower: 36, 39
+two: 19, 34
+under: 29, 31
+union: 7, 31, 36
+until: 27, 29
+upper: 25, 41
+urban: 1, 39
+used: 10, 12
+v: 1
+valley: 15, 19
+vilna: 10, 12, 31
+vilnia: 10, 12, 15
+vilnius: 1, 3, 5, 7, 10, 12, 19, 21, 22, 24, 25, 27, 29, 31, 33, 36, 39, 41
+war: 5, 31
+was: 1, 3, 5, 7, 10, 12, 15, 27, 29, 39, 41
+were: 39, 41
+when: 5, 29
+which: 1, 3, 10, 17, 31, 36, 41
+will: 17
+wilno: 10, 12
+with: 5, 7, 25, 29, 34, 39, 41
+within: 29, 34
+wolf: 13, 15, 17
+world: 3, 5, 17, 31
