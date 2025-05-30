@@ -2,19 +2,17 @@
 ; isankstine_installer.nsi
 ;--------------------------------
 
-!include "MUI2.nsh"             ; Use Modern UI
+!include "MUI2.nsh"             ; Modern UI
 
 Name "ISANKSTINE"
 OutFile "ISANKSTINE_Installer.exe"
-RequestExecutionLevel admin     ; Installer requires Administrator rights
+RequestExecutionLevel admin     ; Ask for Administrator rights
 
-;--------------------------------
-; 1) Default installation folder
+; 1) Default installation directory
 InstallDir "$PROGRAMFILES\ISANKSTINE"
 !define MUI_ABORTWARNING
-!define MUI_DIRECTORYPAGE      ; Show “Browse for Folder” page
+!define MUI_DIRECTORYPAGE      ; Let user pick or confirm install folder
 
-;--------------------------------
 ; 2) Installer pages
 !insertmacro MUI_PAGE_DIRECTORY
 !insertmacro MUI_PAGE_INSTFILES
@@ -22,30 +20,20 @@ InstallDir "$PROGRAMFILES\ISANKSTINE"
 !insertmacro MUI_UNPAGE_INSTFILES
 
 ;--------------------------------
-; 3) Section: copy files into $INSTDIR
+; 3) “Install Files” section
 Section "Install Files" SecInstall
-  ; Set installation path to whatever user chose (or default)
   SetOutPath "$INSTDIR"
 
-  ; Copy map.exe from build\map.exe
-  ; ──────────────────────────────────────
-  ; If your map.exe lives directly under build\, use this:
+  ; Copy both executables from build\
   File "build\map.exe"
-  ; If it lives under e.g. build\Debug\, change to:
-  ; File "build\Debug\map.exe"
-  ; Or if it’s under build\bin\, change to:
-  ; File "build\bin\map.exe"
+  File "build\tekstas.txt"
 
-  ; Copy tekstas.txt from project root
-  ; ────────────────────────────────────
-  File "tekstas.txt"
-
-  ; Write an uninstaller into the same folder
+  ; Write the uninstaller into the same folder
   WriteUninstaller "$INSTDIR\Uninstall.exe"
 SectionEnd
 
 ;--------------------------------
-; 4) Section: Uninstall – remove everything
+; 4) “Uninstall” section
 Section "Uninstall" SecUninstall
   Delete "$INSTDIR\map.exe"
   Delete "$INSTDIR\tekstas.txt"
