@@ -60,7 +60,7 @@ int main(){
     }
 
     std::ofstream outUrls("urls.txt");
-    outUrls << "Found URLs:\n";
+    outUrls << "found URLs:\n";
     for (const auto &u : urls) {
         outUrls << u << '\n';
     }
