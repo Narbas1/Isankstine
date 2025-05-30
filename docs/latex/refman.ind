@@ -1,0 +1,50 @@
+\begin{theindex}
+
+  \item {C:/Users/Lenovo/Desktop/isankstine/Isankstine/functions.cpp}, 
+		\hyperpage{3}
+  \item {C:/Users/Lenovo/Desktop/isankstine/Isankstine/functions.h}, 
+		\hyperpage{4, 5}
+  \item {C:/Users/Lenovo/Desktop/isankstine/Isankstine/main.cpp}, 
+		\hyperpage{5}
+  \item {C:/Users/Lenovo/Desktop/isankstine/Isankstine/README.md}, 
+		\hyperpage{5}
+  \item {crossReference}
+    \subitem {functions.cpp}, \hyperpage{3}
+    \subitem {functions.h}, \hyperpage{4}
+
+  \indexspace
+
+  \item {findURLs}
+    \subitem {functions.cpp}, \hyperpage{3}
+    \subitem {functions.h}, \hyperpage{4}
+  \item {functions.cpp}
+    \subitem {crossReference}, \hyperpage{3}
+    \subitem {findURLs}, \hyperpage{3}
+    \subitem {isDelimiter}, \hyperpage{3}
+    \subitem {toLower}, \hyperpage{4}
+  \item {functions.h}
+    \subitem {crossReference}, \hyperpage{4}
+    \subitem {findURLs}, \hyperpage{4}
+    \subitem {isDelimiter}, \hyperpage{4}
+    \subitem {toLower}, \hyperpage{4}
+
+  \indexspace
+
+  \item {isDelimiter}
+    \subitem {functions.cpp}, \hyperpage{3}
+    \subitem {functions.h}, \hyperpage{4}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{5}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{5}
+
+  \indexspace
+
+  \item {toLower}
+    \subitem {functions.cpp}, \hyperpage{4}
+    \subitem {functions.h}, \hyperpage{4}
+
+\end{theindex}
