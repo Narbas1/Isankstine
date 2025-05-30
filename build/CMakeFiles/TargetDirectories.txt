@@ -1,0 +1,5 @@
+C:/Users/Lenovo/Desktop/isankstine/build/CMakeFiles/map.dir
+C:/Users/Lenovo/Desktop/isankstine/build/CMakeFiles/tests.dir
+C:/Users/Lenovo/Desktop/isankstine/build/CMakeFiles/test.dir
+C:/Users/Lenovo/Desktop/isankstine/build/CMakeFiles/edit_cache.dir
+C:/Users/Lenovo/Desktop/isankstine/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,42 @@
+cmake_minimum_required(VERSION 3.10)
+project(ISANKSTINE LANGUAGES CXX)
+
+# — Use C++17
+set(CMAKE_CXX_STANDARD     17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# — 1) main “map” program
+add_executable(map
+    main.cpp
+    functions.cpp
+)
+
+# Tell the compiler to look in the project root for headers
+target_include_directories(map
+    PRIVATE
+        ${PROJECT_SOURCE_DIR}
+)
+
+# — 2) unit-test program
+add_executable(tests
+    tests/tests.cpp
+    functions.cpp
+)
+
+# Tests need both your root headers and doctest.h from third_party
+target_include_directories(tests
+    PRIVATE
+        ${PROJECT_SOURCE_DIR}
+        ${PROJECT_SOURCE_DIR}/third_party
+)
+
+# If your tests/tests.cpp does NOT itself define
+# DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN, enable it here:
+# target_compile_definitions(tests PRIVATE DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN)
+
+# — 3) enable ctest and register the test executable
+enable_testing()
+add_test(
+    NAME unit_tests
+    COMMAND tests
+)

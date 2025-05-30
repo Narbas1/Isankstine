@@ -1,0 +1,24 @@
+Start testing: May 30 20:55 FLE Daylight Time
+----------------------------------------------------------
+1/1 Testing: unit_tests
+1/1 Test: unit_tests
+Command: "C:/Users/Lenovo/Desktop/isankstine/build/tests.exe"
+Directory: C:/Users/Lenovo/Desktop/isankstine/build
+"unit_tests" start time: May 30 20:55 FLE Daylight Time
+Output:
+----------------------------------------------------------
+[doctest] doctest version is "2.4.12"
+[doctest] run with "--help" for options
+===============================================================================
+[doctest] test cases: 2 | 2 passed | 0 failed | 0 skipped
+[doctest] assertions: 9 | 9 passed | 0 failed |
+[doctest] Status: SUCCESS!
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"unit_tests" end time: May 30 20:55 FLE Daylight Time
+"unit_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 30 20:55 FLE Daylight Time
