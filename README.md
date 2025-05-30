@@ -9,4 +9,5 @@ Si programa nuskaito tekstini faila ir sukuria 3 naujus tekstinius failus:
 
 ---
 
+Sioje programoje buvo naudojami asociatyvus konteineriai: std::set (eilutems ir URL'ams saugoti) ir std::map (saugoti zodzius su jo kiekiu tekste).
 
