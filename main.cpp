@@ -6,10 +6,10 @@
 
 int main(){
 
-    const std::string filename = "../tekstas.txt";
+    const std::string filename = "tekstas.txt";
     std::map<std::string,int> wordCount;
 
-    std::ifstream in("../tekstas.txt");
+    std::ifstream in("tekstas.txt");
     if (!in) {
         std::cerr << "failed to open file tekstas.txt\n";
         return 1;
@@ -40,13 +40,13 @@ int main(){
     std::set<std::string> urls;
     findURLs(filename, urls);
 
-    std::ofstream outWords("../zodziai.txt");
+    std::ofstream outWords("zodziai.txt");
     outWords << "words that appeared more than 1 time:\n";
     for (const auto &p : wordCount) {
         if (p.second > 1)
             outWords << p.first << ": " << p.second << '\n';
     }
-    std::ofstream outXref("../xref.txt");
+    std::ofstream outXref("xref.txt");
     outXref << "cross-reference (word: lines):\n";
     for (const auto &p : wordLines) {
         outXref << p.first << ": ";
@@ -59,7 +59,7 @@ int main(){
         outXref << '\n';
     }
 
-    std::ofstream outUrls("../urls.txt");
+    std::ofstream outUrls("urls.txt");
     outUrls << "found URLs:\n";
     for (const auto &u : urls) {
         outUrls << u << '\n';
