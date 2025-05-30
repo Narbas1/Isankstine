@@ -11,3 +11,9 @@ Si programa nuskaito tekstini faila ir sukuria 3 naujus tekstinius failus:
 
 Sioje programoje buvo naudojami asociatyvus konteineriai: std::set (eilutems ir URL'ams saugoti) ir std::map (saugoti zodzius su jo kiekiu tekste).
 
+---
+
+# Paleidimo instrukcija:
+
+Reikia nueiti i https://github.com/Narbas1/isankstine/releases
+Atsisiusti ISANKSTINE_Installer.exe ir ji runninti. Nueiti i folderi kuriame issaugojot failus per instaliacija ir double clickinti ant map.exe. Savo teksta galite ikelti i tekstas.exe
