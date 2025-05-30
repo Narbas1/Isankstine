@@ -8,10 +8,10 @@ Name "ISANKSTINE"
 OutFile "ISANKSTINE_Installer.exe"
 RequestExecutionLevel admin     ; Ask for Administrator rights
 
-; 1) Default installation directory
+; 1) Default installation folder (user can change if they want)
 InstallDir "$PROGRAMFILES\ISANKSTINE"
 !define MUI_ABORTWARNING
-!define MUI_DIRECTORYPAGE      ; Let user pick or confirm install folder
+!define MUI_DIRECTORYPAGE      ; Show folder-selection page
 
 ; 2) Installer pages
 !insertmacro MUI_PAGE_DIRECTORY
@@ -19,22 +19,22 @@ InstallDir "$PROGRAMFILES\ISANKSTINE"
 !insertmacro MUI_UNPAGE_CONFIRM
 !insertmacro MUI_UNPAGE_INSTFILES
 
-;--------------------------------
-; 3) “Install Files” section
 Section "Install Files" SecInstall
+  ; Set the output folder to whatever the user chose (or default)
   SetOutPath "$INSTDIR"
 
-  ; Copy both executables from build\
-  File "build\map.exe"
-  File "build\tekstas.txt"
+  ; Copy map.exe (which must live in the same folder as this .nsi)
+  File "map.exe"
 
-  ; Write the uninstaller into the same folder
+  ; Copy tekstas.txt (also must live in the same folder as this .nsi)
+  File "tekstas.txt"
+
+  ; Write Uninstall.exe into the install folder
   WriteUninstaller "$INSTDIR\Uninstall.exe"
 SectionEnd
 
-;--------------------------------
-; 4) “Uninstall” section
 Section "Uninstall" SecUninstall
+  ; Delete those files and remove the folder
   Delete "$INSTDIR\map.exe"
   Delete "$INSTDIR\tekstas.txt"
   Delete "$INSTDIR\Uninstall.exe"
